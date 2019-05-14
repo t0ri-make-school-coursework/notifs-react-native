@@ -1,0 +1,23 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.4.0",
+    "expo": "^32.0.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-local-notifications": "^2.0.0",
+    "react-native-push-notification": "^3.1.3",
+    "react-navigation": "^3.9.1",
+    "react-navigation-transitions": "^1.0.10"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0"
+  },
+  "private": true
+}
